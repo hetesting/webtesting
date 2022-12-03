@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="15" total="22" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="311277" started-at="2022-12-02T21:39:34 IST" finished-at="2022-12-02T21:44:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="311277" started-at="2022-12-02T21:39:34 IST" finished-at="2022-12-02T21:44:45 IST">
+      <class name="Testcasewebpage.Test_Cases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="10054" started-at="2022-12-02T21:39:34 IST" finished-at="2022-12-02T21:39:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase5(java.lang.String,java.lang.String)[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase5" duration-ms="63817" started-at="2022-12-02T21:39:44 IST" description="Test cases to verify login page " data-provider="data-provider" finished-at="2022-12-02T21:40:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemantpatiltech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="776" started-at="2022-12-02T21:40:48 IST" finished-at="2022-12-02T21:40:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="5250" started-at="2022-12-02T21:40:49 IST" finished-at="2022-12-02T21:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase5(java.lang.String,java.lang.String)[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase5" duration-ms="59984" started-at="2022-12-02T21:40:54 IST" description="Test cases to verify login page " data-provider="data-provider" finished-at="2022-12-02T21:41:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemantpatiltech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="770" started-at="2022-12-02T21:41:54 IST" finished-at="2022-12-02T21:41:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="10697" started-at="2022-12-02T21:41:55 IST" finished-at="2022-12-02T21:42:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase5(java.lang.String,java.lang.String)[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase5" duration-ms="63481" started-at="2022-12-02T21:42:06 IST" description="Test cases to verify login page " data-provider="data-provider" finished-at="2022-12-02T21:43:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemantpatiltech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="785" started-at="2022-12-02T21:43:09 IST" finished-at="2022-12-02T21:43:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="5642" started-at="2022-12-02T21:43:10 IST" finished-at="2022-12-02T21:43:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase5(java.lang.String,java.lang.String)[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase5" duration-ms="59121" started-at="2022-12-02T21:43:16 IST" description="Test cases to verify login page " data-provider="data-provider" finished-at="2022-12-02T21:44:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemantpatiltech@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohini@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="755" started-at="2022-12-02T21:44:15 IST" finished-at="2022-12-02T21:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="6207" started-at="2022-12-02T21:44:16 IST" finished-at="2022-12-02T21:44:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase15()[pri:15, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase15" duration-ms="5278" started-at="2022-12-02T21:44:22 IST" description="Test cases to verify user is not able to signup with blank firstname &amp; password " finished-at="2022-12-02T21:44:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase15 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="742" started-at="2022-12-02T21:44:27 IST" finished-at="2022-12-02T21:44:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="9040" started-at="2022-12-02T21:44:28 IST" finished-at="2022-12-02T21:44:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase16()[pri:16, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase16" duration-ms="61" started-at="2022-12-02T21:44:37 IST" description="Test cases to verify horizontal scroll by pixel " finished-at="2022-12-02T21:44:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase16 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="717" started-at="2022-12-02T21:44:37 IST" finished-at="2022-12-02T21:44:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="setup" is-config="true" duration-ms="6798" started-at="2022-12-02T21:44:38 IST" finished-at="2022-12-02T21:44:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase18()[pri:18, instance:Testcasewebpage.Test_Cases@63355449]" name="Testcase18" duration-ms="9" started-at="2022-12-02T21:44:44 IST" description="Test cases to verify on click twitter link it is directed to twitter page" finished-at="2022-12-02T21:44:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase18 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@63355449]" name="teardown" is-config="true" duration-ms="730" started-at="2022-12-02T21:44:44 IST" finished-at="2022-12-02T21:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcasewebpage.Test_Cases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

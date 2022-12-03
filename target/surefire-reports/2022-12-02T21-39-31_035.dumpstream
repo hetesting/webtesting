@@ -1,0 +1,5 @@
+# Created at 2022-12-02T21:39:32.131
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Project Work\eclipse-workspace\Dukan_Web\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
