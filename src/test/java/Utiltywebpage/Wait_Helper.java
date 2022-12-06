@@ -21,12 +21,13 @@ public void implicitwait(int time)
 }
 
 //B-1)Second Method in wait class------"Explicit Wait"--->Visibity of particular webelement
-public void explicitwait_visibilty(int time,WebElement target)
+public static WebElement explicitwaittill_visibility(int time,WebElement target)
 {
-	
-	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
-	wait.until(ExpectedConditions.visibilityOf(target));
+	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(time));
+	 wait.until(ExpectedConditions.visibilityOf(target));
+	 return target;
 }
+
 
 //2)Second Method in wait class------"Explicit Wait"--->Visibity of particular webelement to be clickabel
 public void explicitwait_clickable(int time,WebElement target)

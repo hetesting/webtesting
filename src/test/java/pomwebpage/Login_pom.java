@@ -36,33 +36,41 @@ public class Login_pom
 	
 	public void button_click()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Sign_Navigation);
 		Sign_Navigation.click();
 	}
 	public void Enter_email(String email)
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Mobile);
 		Mobile.sendKeys(email);
 	}
 	
 	public void Continue()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Continue);
 		Continue.click();
 	}
 	
 	public void Enter_Pasword(String Passwordrem)
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Password);
 		Password.sendKeys(Passwordrem);
 	}
 	public void sign_in()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Signin);
 		Signin.click();
 	}
 	public void sign_out() throws Exception
 	{
+		
 		Wait_Helper mn=new Wait_Helper();
 		Actions ac=new Actions(driver);
+		Wait_Helper.explicitwaittill_visibility(20,Sign_Navigation);
 		ac.moveToElement(Sign_Navigation);
 		mn.implicitwait(60);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
+	//	Wait_Helper.explicitwaittill_visibility(80,Signout);
 		ac.moveToElement(Signout).click();
 	
 	//	mn.explicitwait_visibilty(20, Signout);

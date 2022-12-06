@@ -10,10 +10,10 @@ public class Data
 	{
 		return new Object[][]
 				{
-			     {"hemantpatiltech@gmail.com","Rohini@123"},
-			     {"hemantpatiltech@gmail.com","Rohini@123"},
-			     {"hemantpatiltech@gmail.com","Rohini@123"},
-			     {"hemantpatiltech@gmail.com","Rohini@123"}
+			      {"hemantpatiltech@gmail.com","Rohini@123"}
+			  //   {"hemantpatiltech@gmail.com","Rohini@123"},
+			  //   {"hemantpatiltech@gmail.com","Rohini@123"},
+			   //  {"hemantpatiltech@gmail.com","Rohini@123"}
 				};
 		
 	}

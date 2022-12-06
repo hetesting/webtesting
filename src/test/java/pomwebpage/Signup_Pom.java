@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import Utiltywebpage.Wait_Helper;
+
 public class Signup_Pom 
 {
 	WebDriver driver;
@@ -52,22 +54,25 @@ public class Signup_Pom
 	WebElement Chk_mark;
 	public void Creat_submit()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Create_Account);
 		Create_Account.click();
 
 	}
 	public void Enter_Firstname(String name)
 	{
+		Wait_Helper.explicitwaittill_visibility(20,First_name);
 		First_name.sendKeys(name);
 	}
 	
 	public void Signup_submit()
 	{
-
+		Wait_Helper.explicitwaittill_visibility(20,Finalsubmission);
 		Finalsubmission.click();
 	}
 	
 	public void phoneErrorcheck()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,First_name_Error);
 		String actual_text=First_name_Error.getText();
 		String desired_text="Enter your name";
 		if(actual_text.equals(desired_text))
@@ -83,12 +88,14 @@ public class Signup_Pom
 	
 	public void Mobile_enter(String m)
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Mobile_no);
 		Mobile_no.sendKeys(m);
 	}
 	
 
 	public void phoneNoErrorcheck()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Mobile_no_Error);
 		String actual_text= Mobile_no_Error.getText();
 		String desired_text="Enter your mobile number";
 		if(actual_text.equals(desired_text))
@@ -103,10 +110,12 @@ public class Signup_Pom
 	}
 	public void Enter_Pasword(String m)
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Password);
 		Password.sendKeys(m);
 	}
 	public void paswordErrorcheck()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Password_Error);
 		String actual_text=Password_Error.getText();
 		String desired_text="Enter your password";
 		if(actual_text.equals(desired_text))
@@ -121,6 +130,7 @@ public class Signup_Pom
 	}
 	public void MarkInvalidateChk() 
 	{
+		Wait_Helper.explicitwaittill_visibility(20,Chk_mark);
 		String mark=Chk_mark.getText();
 		Assert.assertEquals("Still in signup-page", "Create Account", mark);
 		System.out.println("Not able to sign-up with blank first_name");

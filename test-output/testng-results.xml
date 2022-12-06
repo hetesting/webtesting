@@ -1,112 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="17" total="19" passed="1">
+<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ParallelTestingSuite" duration-ms="66161" started-at="2022-11-17T20:31:42 IST" finished-at="2022-11-17T20:32:48 IST">
+  <suite name="Suite" duration-ms="27244" started-at="2022-12-05T21:52:23 IST" finished-at="2022-12-05T21:52:50 IST">
     <groups>
+      <group name="Sanity">
+        <method signature="SignUp_Testcases.Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Testcase6" class="Testcasewebpage.SignUp_Testcases"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="66161" started-at="2022-11-17T20:31:42 IST" finished-at="2022-11-17T20:32:48 IST">
-      <class name="Testcasewebpage.Test_Cases">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="setup" is-config="true" duration-ms="9708" started-at="2022-11-17T20:31:43 IST" finished-at="2022-11-17T20:31:52 IST">
+    <test name="Test" duration-ms="27244" started-at="2022-12-05T21:52:23 IST" finished-at="2022-12-05T21:52:50 IST">
+      <class name="Testcasewebpage.SignUp_Testcases">
+        <test-method status="PASS" signature="Saucelabtesting()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Saucelabtesting" is-config="true" duration-ms="9929" started-at="2022-12-05T21:52:24 IST" finished-at="2022-12-05T21:52:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Saucelabtesting -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="setup" is-config="true" duration-ms="10742" started-at="2022-12-05T21:52:34 IST" finished-at="2022-12-05T21:52:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Testcase18()[pri:18, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="Testcase18" duration-ms="31" started-at="2022-11-17T20:31:52 IST" description="Test cases to verify on click twitter link it is directed to twitter page" finished-at="2022-11-17T20:31:52 IST">
+        <test-method status="PASS" signature="Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Testcase6" duration-ms="5230" started-at="2022-12-05T21:52:44 IST" description="Test cases to verify firstname error message " finished-at="2022-12-05T21:52:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase18 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="teardown" is-config="true" duration-ms="773" started-at="2022-11-17T20:31:52 IST" finished-at="2022-11-17T20:31:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="setup" is-config="true" duration-ms="6461" started-at="2022-11-17T20:31:53 IST" finished-at="2022-11-17T20:32:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Testcase19()[pri:19, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="Testcase19" duration-ms="47448" started-at="2022-11-17T20:32:00 IST" description="Test cases to verify on click insta link it is directed to twitter page" finished-at="2022-11-17T20:32:47 IST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='_ab37']' (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='_ab37']' (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at Utiltywebpage.Wait_Helper.explicitwait_visibilty(Wait_Helper.java:28)
-at pomwebpage.Home_POM.naviagate_instagram(Home_POM.java:178)
-at Testcasewebpage.Test_Cases.Testcase19(Test_Cases.java:273)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='_ab37']"}
-  (Session info: chrome=107.0.5304.107)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-PH2DJEV', ip: '192.168.149.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ea5731ab4dd82ab6f8377cf43ed8f62, findElement {using=xpath, value=//span[@class='_ab37']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63363/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ea5731ab4dd82ab6f8377cf43ed8f62
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy39.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase19 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.Test_Cases@5e0826e7]" name="teardown" is-config="true" duration-ms="805" started-at="2022-11-17T20:32:47 IST" finished-at="2022-11-17T20:32:48 IST">
+        </test-method> <!-- Testcase6 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="teardown" is-config="true" duration-ms="756" started-at="2022-12-05T21:52:50 IST" finished-at="2022-12-05T21:52:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Testcasewebpage.Test_Cases -->
+      </class> <!-- Testcasewebpage.SignUp_Testcases -->
     </test> <!-- Test -->
-  </suite> <!-- ParallelTestingSuite -->
+  </suite> <!-- Suite -->
 </testng-results>

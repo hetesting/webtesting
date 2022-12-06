@@ -20,6 +20,7 @@ import Utiltywebpage.Wait_Helper;
 public class Home_POM extends Base_Support
 {
 	public WebDriver driver;
+	Wait_Helper nv;
 	public Home_POM (WebDriver driver)
 	{
 		this.driver=driver;
@@ -60,6 +61,7 @@ public class Home_POM extends Base_Support
 	
 	public void verifylogo()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,text);
 		String d=text.getText();
 		System.out.println(d);
 	}
@@ -112,6 +114,7 @@ public class Home_POM extends Base_Support
 	}
 	public void Tab_clickable()
 	{
+		Wait_Helper.explicitwaittill_visibility(20,shopping_made_tab);
 		shopping_made_tab.click();
 	}
 	
@@ -131,12 +134,9 @@ public class Home_POM extends Base_Support
 	
 	public void naviafteFb() 
 	{
-
+		Wait_Helper.explicitwaittill_visibility(20,fb_Link);
 		fb_Link.click();
-		
-		Wait_Helper nv=new Wait_Helper();
-		nv.explicitwait_visibilty(20, fb_link_verify);
-		
+		Wait_Helper.explicitwaittill_visibility(20,fb_link_verify);
 		String g=fb_link_verify.getText();
 		
 		String h="See more of Amazon India on Facebook";
@@ -151,12 +151,9 @@ public class Home_POM extends Base_Support
 	}
 	public void naviagate_twitter() 
 	{
-
+		Wait_Helper.explicitwaittill_visibility(20,Twitter_Link);
 		Twitter_Link.click();
-		
-		Wait_Helper nv=new Wait_Helper();
-		nv.explicitwait_visibilty(20,Twitter_verify) ;
-		
+		Wait_Helper.explicitwaittill_visibility(20,Twitter_verify);
 		String g=Twitter_verify.getText();
 		
 		String h="The official Twitter profile of ";
@@ -171,12 +168,10 @@ public class Home_POM extends Base_Support
 	}
 	public void naviagate_instagram() 
 	{
-
+		Wait_Helper.explicitwaittill_visibility(20,Inst_link);
 		Inst_link.click();
 		
-		Wait_Helper nv=new Wait_Helper();
-		nv.explicitwait_visibilty(20,Inst_verify) ;
-		
+		Wait_Helper.explicitwaittill_visibility(20,Inst_verify);
 		String g=Inst_verify.getText();
 		
 		String h="Log in with Facebook%%%%%%";
