@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
+<testng-results skipped="0" failed="0" ignored="7" total="10" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27244" started-at="2022-12-05T21:52:23 IST" finished-at="2022-12-05T21:52:50 IST">
+  <suite name="Suite" duration-ms="51820" started-at="2022-12-07T20:49:05 IST" finished-at="2022-12-07T20:49:57 IST">
     <groups>
       <group name="Sanity">
-        <method signature="SignUp_Testcases.Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Testcase6" class="Testcasewebpage.SignUp_Testcases"/>
+        <method signature="SignUp_Testcases.Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="Testcase6" class="Testcasewebpage.SignUp_Testcases"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Test" duration-ms="27244" started-at="2022-12-05T21:52:23 IST" finished-at="2022-12-05T21:52:50 IST">
+    <test name="Test" duration-ms="51820" started-at="2022-12-07T20:49:05 IST" finished-at="2022-12-07T20:49:57 IST">
       <class name="Testcasewebpage.SignUp_Testcases">
-        <test-method status="PASS" signature="Saucelabtesting()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Saucelabtesting" is-config="true" duration-ms="9929" started-at="2022-12-05T21:52:24 IST" finished-at="2022-12-05T21:52:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Saucelabtesting -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="setup" is-config="true" duration-ms="10742" started-at="2022-12-05T21:52:34 IST" finished-at="2022-12-05T21:52:44 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="setup" is-config="true" duration-ms="13822" started-at="2022-12-07T20:49:06 IST" finished-at="2022-12-07T20:49:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="Testcase6" duration-ms="5230" started-at="2022-12-05T21:52:44 IST" description="Test cases to verify firstname error message " finished-at="2022-12-05T21:52:50 IST">
+        <test-method status="PASS" signature="Testcase6()[pri:6, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="Testcase6" duration-ms="4996" started-at="2022-12-07T20:49:20 IST" description="Test cases to verify firstname error message " finished-at="2022-12-07T20:49:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase6 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.SignUp_Testcases@351d00c0]" name="teardown" is-config="true" duration-ms="756" started-at="2022-12-05T21:52:50 IST" finished-at="2022-12-05T21:52:50 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="teardown" is-config="true" duration-ms="754" started-at="2022-12-07T20:49:25 IST" finished-at="2022-12-07T20:49:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="setup" is-config="true" duration-ms="7895" started-at="2022-12-07T20:49:25 IST" finished-at="2022-12-07T20:49:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase7()[pri:7, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="Testcase7" duration-ms="5696" started-at="2022-12-07T20:49:33 IST" description="Test cases to verify Phonenumber error message " finished-at="2022-12-07T20:49:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase7 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="teardown" is-config="true" duration-ms="743" started-at="2022-12-07T20:49:39 IST" finished-at="2022-12-07T20:49:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="setup" is-config="true" duration-ms="10318" started-at="2022-12-07T20:49:40 IST" finished-at="2022-12-07T20:49:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase8()[pri:8, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="Testcase8" duration-ms="5923" started-at="2022-12-07T20:49:50 IST" description="Test cases to verify password error message " finished-at="2022-12-07T20:49:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase8 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcasewebpage.SignUp_Testcases@62150f9e]" name="teardown" is-config="true" duration-ms="737" started-at="2022-12-07T20:49:56 IST" finished-at="2022-12-07T20:49:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

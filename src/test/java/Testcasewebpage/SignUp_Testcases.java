@@ -1,8 +1,10 @@
 package Testcasewebpage;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import Utiltywebpage.Listner;
 import Utiltywebpage.RetryExecution;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -14,6 +16,7 @@ import io.qameta.allure.Story;
 import pomwebpage.Login_pom;
 import pomwebpage.Signup_Pom;
 
+@Listeners(Listner.class)
 public class SignUp_Testcases extends Base_Support
 {
 	@Description("Test cases to verify signup firstname error message")
@@ -41,7 +44,7 @@ public class SignUp_Testcases extends Base_Support
 	@Story("To verify user get error when he enetered blank phonenumber")
 	@Step("Verify error msg for blank phonenumber")
 	@Severity(SeverityLevel.MINOR)
-	@Test(priority=7,enabled=false,description="Test cases to verify Phonenumber error message ")// required lot of time to verify 358 link hence 
+	@Test(priority=7,enabled=true,description="Test cases to verify Phonenumber error message ")// required lot of time to verify 358 link hence 
 	public void Testcase7() throws Exception
 	{
 		Login_pom pg2=PageFactory.initElements(driver,Login_pom.class);
@@ -61,7 +64,7 @@ public class SignUp_Testcases extends Base_Support
 	@Story("To verify user get error when he enetered blank password")
 	@Step("Verify error msg for blank password")
 	@Severity(SeverityLevel.MINOR)
-	@Test(priority=8,enabled=false,description="Test cases to verify password error message ")// required lot of time to verify 358 link hence 
+	@Test(priority=8,enabled=true,description="Test cases to verify password error message ")// required lot of time to verify 358 link hence 
 	public void Testcase8() throws Exception
 	{
 		Login_pom pg2=PageFactory.initElements(driver,Login_pom.class);
